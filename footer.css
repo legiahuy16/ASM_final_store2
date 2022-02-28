@@ -1,0 +1,40 @@
+footer{
+    clear: both;
+    background-color: black;
+    height: 280px;
+    width: 90%;
+    padding: 2%;
+    padding-left: 8%;
+}
+footer>div{
+    text-align: left;
+    color: white;
+    float: left;
+    width: 20%;
+    line-height: 30px;
+    font-size: 17px;
+}
+.col1{
+    margin-right: 5%;
+    width: 25%;
+}
+.col1  img{
+    width:50%
+}
+.col1>span{
+    text-align: left;
+    color: #fff;
+}
+.col2>a{
+color: white;
+text-decoration: none;}
+.col3>a{
+    color: white;
+    text-decoration: none;
+}
+.col2>a:hover{
+    color: grey;
+}
+.col3>a:hover{
+    color:grey
+}

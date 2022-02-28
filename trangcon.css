@@ -1,0 +1,207 @@
+.link-page{
+    float: left;
+    height: 35px;
+    width: 93%;
+    padding: 15px 0px 0px 7%;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.duongdan{
+    margin: 0 0.2%;
+}
+/* main */
+.product-page-main{
+    clear: both;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 1000px;
+}
+.slideshow{
+    width: 33%;
+    float: left;
+    margin-right: 1%;
+}
+.product-full-img{
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 2px gray;
+}
+.product-full-img>img{
+    width: 100%;
+}
+.product-mini-imgs{
+    margin-top: 20px;
+}
+.product-mini-img{
+    width: 25%;
+    margin-left: 7%;
+    float: left;
+    box-shadow: 0 0 2px gray;
+    overflow: hidden;
+}
+.product-mini-img:hover{
+    box-shadow: 0 0 2px black;
+}
+.middle-product-page{
+    float: left;
+    width: 40%;
+    margin-right: 1%;
+}
+.loaisanpham{
+    float: left;
+    margin-bottom: 2%;
+}
+.masanpham{
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+}
+.danhgia{
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+}
+.sao{
+    float: left;
+    color: orange;
+    font-size: 5px;
+}
+.danhgia>a{
+    color: lightblue;
+    margin-top: 5px;
+    float: left;
+}
+.conhang{
+    color: red;
+}
+.price{
+    clear: both;
+    float: left;
+    font-size: 20px;
+}
+.price>b{
+    font-size: 30px;
+    color: red;
+}
+.dathang{
+    float: left;
+    background-color: green;
+    width: 100%;
+    height: 65px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.dathang>b{
+    font-size: 25px;
+}
+.size{
+    float: left;
+    font-weight: bold;
+    width: 100%;
+}
+.size>ul>li{
+    float: left;
+    list-style: none;
+    border: thin solid black;
+    width: 7%;
+    text-align: center;
+    padding: 2px;
+    margin-left: 5%;
+}
+.hdcs{
+    float: left;
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.soluong{
+    clear: both;
+    font-size: 18px;
+}
+.soluong>input{
+    width: 10%;
+    margin: 10px 0;
+    text-align: center;
+}
+.themvaogio{
+    width: 49%;
+    height: 40px;
+    padding-top: 3%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    border-radius: 2px;
+    margin-right: 2%;
+}
+.muangay{
+    float: left;
+    width: 49%;
+    height: 40px;
+    padding-top: 3%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 2px;
+}
+.chinhsach{
+    float: left;
+    width: calc(25% - 2px);
+    height: 275px;
+    overflow: hidden;
+    border: thin solid black;
+}
+.chinhsach>div{
+    width: 95%;
+    height: 24%;
+    padding-top: 10%;
+    margin: 0 auto;
+    border-bottom: thin solid gray;
+}
+.chinhsach-img{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-top: -10px;
+}
+.chinhsach img{
+    width: 100%;
+}
+.goiysanpham{
+    float: right;
+    width: calc(25% - 2px);
+    height: 1000px;
+    box-shadow: 0 0 2px gray;
+    background-color: red;
+    margin-top: 20px;
+}
+.goiysanpham-header{
+    padding-top: 5%;
+    padding-left: 2%;
+    background-color: black;
+    color: white;
+    height: 35px;
+}
+.goiysanpham ul{
+    width: 100%;
+}
+.goiysanpham ul>li{
+    list-style: none;
+    padding: 2%;
+}
+.goiysanpham ul>li>div{
+    width: 30%;
+    float: left;
+}
+.goiysanpham ul>li>div>img{
+    width: 100%;
+}

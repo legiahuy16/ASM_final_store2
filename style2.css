@@ -1,0 +1,274 @@
+*{
+    font-family: 'UTM';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+    padding: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.user{
+    display: flex;
+}
+.list-inline{
+   margin-right: 15px;
+}
+.header2{
+    background: url(//bizweb.dktcdn.net/100/373/032/themes/832742/assets/hd_bg.jpg?1642921895960);
+}
+.header2>.logo{
+    text-align: center;
+}
+.header2>.logo>img{
+    width: 230px;
+    height: 45px;
+    margin: 30px 0;
+}
+nav{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    background-color: black;
+    padding: -20px 0;
+  
+}
+nav>h5{
+    color: white;
+    padding-top: 8px;
+    margin: 5px 0;
+}
+ul.menu{
+    display: flex;
+    list-style: none;
+    padding-left: 25%;
+    margin: 0;
+    align-items: center;
+    line-height: 10px;
+    
+}
+ul.menu>li{
+    margin: 15px;
+ 
+}
+ul.menu>li>a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.anhnen{
+    width: 100%;
+}
+.images-banner{
+    width: 100%;
+    height: 100%;
+}
+.h1{
+width: 100%;
+text-align: center;
+}
+.h1>h1{
+    font-size: 25px;
+}
+ul.product-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+ul.product-container>li{
+    flex-basis: calc(20% - 10px);
+    list-style: none;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.product-top img{
+width: 100%;
+}
+.product-top{
+    position: relative;
+}
+.giasoc{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: rgb(253, 113, 63);
+    width: 42px;
+    height: 40px;
+    border-radius: 5px;
+}
+.giasoc>span{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 3px;
+    top: 4px;
+}
+.sale{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    background: rgb(63, 238, 63);
+    width: 42px;
+    height: 40px;
+    border-radius: 50px;
+}
+.sale>span{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 5px;
+    top: 13px;
+    
+}
+
+
+
+/* .container>nav{
+    background-color: rgb(17, 18, 22);
+    width: 100%;
+    height: 40px;
+}
+.container>footer{
+    background-color: cyan;
+    clear:both;
+    width: 100%;
+    min-height: 100px;
+}
+header>h1{
+    margin: 30px 20px 30px 20px;
+    padding: 30px 20px 20px 50px;
+    width: 100%;
+}
+header>h5{
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    font-family: Arial;
+}
+.menu{
+    position:relative;
+    top: 5px;
+    right: 10px;
+}
+
+nav>h3{
+    margin: 10px 20px 30px 20px;
+    padding: 0px 20px 20px 50px;
+    word-spacing: 10px;
+    font-family: Arial, Helvetica;
+    color: white;
+    text-align: center;
+}
+nav>h5{
+    position: relative;
+    left: 1150px;
+    bottom: 70px;
+    color: white;
+    margin: 2px 2px;
+}
+/* .box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+/* .sanpham1{
+    margin-left: 10px;
+}
+.box>img{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 50px 20px;
+    margin: 40px;
+    box-shadow: -5px -5px 5px;
+    background-color: white;
+    background-size: 100% 100%;
+} 
+.col-33p{
+    width: 33%;
+    float: left;
+}
+.thongtin{
+    margin-left: 82px;
+    width: 300px;
+    height: 35px;
+    float: left;
+}
+.thongtin1{
+    margin-top: 15px;
+}
+.thongtin1 a{
+    text-decoration: none;
+}
+.slogan{
+    width: 600px;
+    height: 35px;
+    float: left;
+}
+.mid{
+    margin-top: 15px;
+    text-align: center;
+}
+.user{
+    width: 300px;
+    height: 35px;
+    float: left;
+}
+.col-20p{
+    margin-top: 800px;
+}
+header img{
+    margin-top: 0px;
+}
+    
+}
+.col-20p{
+    width: 1600px;
+    height: 355px;
+}
+.sanpham1{
+    width: 240px;
+    height: 355px;
+    float: left;
+    margin-left: 50px;
+}
+.sanpham1 img{
+    width: 210px;
+    height: 210px;
+}
+.Content img{
+    width: 227.41px;
+    height: 45px;
+    float: left;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.header2{
+    width: 1364px;
+    height: 110px;
+}
+h3 a{
+    text-decoration: none;
+    color: #fff;
+}
+header img.images-banner{
+    width: 100%;
+} */ 
+
